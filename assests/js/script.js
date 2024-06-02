@@ -97,7 +97,17 @@ var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
     //         console.log('FAILED...', error);
     //         alert("Form Submission Failed! Try Again");
     //     });
-    
+    // const scriptURL = 'https://script.google.com/macros/s/AKfycbyvUgPg6ZebE38Y32V6_nN8lfN3exomRZ8TFehK3tE/dev'
+
+          // const form = document.forms['contact-form']
+
+          // form.addEventListener('submit', e => {
+          //   e.preventDefault()
+          //   fetch(scriptURL, { method: 'post', body: new Formatdata(form) })
+          //     .then(response => alert("Thank you!"))
+          //     .then(() => { window.location.reload(); })
+          //     .catch(error => console.error('Error!', error.message))
+          // })
 });
 
 
