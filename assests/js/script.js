@@ -85,18 +85,18 @@ var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
  $("#contact-form").submit(function (event) {
     //event.preventdefault(); 
     
-    event.preventDefault();
-    emailjs.init("tKcnAF73jMw0tRWFB");
-    console.log("form submitted");
-    emailjs.sendForm('service_sxhkdba', 'template_9fbmhxi', '#contact-form')
-        .then(function (response) {
-            console.log('SUCCESS!', response.status, response.text);
-            document.getElementById("contact-form").reset();
-            alert("Form Submitted Successfully");
-        }, function (error) {
-            console.log('FAILED...', error);
-            alert("Form Submission Failed! Try Again");
-        });
+    // event.preventDefault(e);
+    // emailjs.init("tKcnAF73jMw0tRWFB");
+    // console.log("form submitted");
+    // emailjs.sendForm('service_sxhkdba', 'template_9fbmhxi', '#contact-form')
+    //     .then(function (response) {
+    //         console.log('SUCCESS!', response.status, response.text);
+    //         document.getElementById("contact-form").reset();
+    //         alert("Form Submitted Successfully");
+    //     }, function (error) {
+    //         console.log('FAILED...', error);
+    //         alert("Form Submission Failed! Try Again");
+    //     });
     
 });
 
